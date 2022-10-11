@@ -59,3 +59,18 @@ form {
 .form-item button {
     width: 100px;
 } 
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+    justify-content: center; 
+}
+   
+.description {
+display:flex; 
+
+}
