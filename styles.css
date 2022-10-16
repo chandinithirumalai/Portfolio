@@ -1,15 +1,38 @@
 #imgid{
     height: 300px
+
+}
+
+#linkedIn-logo{
+    height: 50px;
+    padding-right: 0px;
+    padding-left: 600px;
+    padding-bottom: 25px;
+  
+}
+
+#nothingyet{
+    Height: 500px
+    
+}
+
+
+#instagram-logo{
+    height: 50px;
+    padding-bottom:25px ;
+}
+img{
+    padding-left: 70px;
 }
    
 body {
-    background-color: #FFF;
-    color: #000000;
+    background-color: black;
+    color: #ffffff;
     font-family: "Gill Sans", sans-serif;
 }
 
 header {
-    border-bottom: 2px solid #FDDC5C;
+    border-bottom: 5px solid #FDDC5C;
     text-align: center;
 }
 
@@ -38,7 +61,7 @@ form {
 
 .form-item input:hover,
 .form-item textarea:hover {
-    border: 2px solid #FA4224;
+    border: 2px solid greenyellow;
 }
 
 .form-item input,
@@ -51,8 +74,8 @@ form {
 }
 
 .form-item button:hover {
-    border: 2px solid #FA4224;
-    background-color: #FA4224;
+    border: 2px solid greenyellow;
+    background-color: #FDDC5C;
     color: #FFF;
 }
 
@@ -62,15 +85,103 @@ form {
 
 header{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    /* margin: 20px; */
+    /* padding: 30px; */
+    
+}
+
+h1{
+    padding-left: 80px;
+    padding-right: 20px;
+    
+}
+
+h2{
+    padding-left: 70px;
+    
 }
 
 ul{
-    display: flex;
+    display: inline-block;
     justify-content: center; 
+    padding-top: 100px;
+    padding-bottom: 200px;
+    line-height:300%;
+}
+    
+
+footer{
+    /* padding-left: 60px; */
+    justify-content: center;
+    /* background-color: aqua; */
 }
    
-.description {
-display:flex; 
+p{
+    padding-left: 70px;
+}
+#description, #picture {
+display: inline-block;
+}
 
+#description {
+    width: 100%;
+    display:block;
+}
+
+.content-wraper{
+    display: flex; 
+}
+
+nav a {
+    color:#FDDC5C;
+    width: 100px;
+    display: inline-block;
+    height: 100px; 
+    justify-content: flex-end;
+    margin-top: 2em;
+   
+   
+    
+
+    /* !--padding-left: 80px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 5px;  */
+      
+}
+
+.downloadcv button{
+    width: 250px;
+    padding: 5px;
+    background-color: #FDDC5C;
+    color: black;
+    position:fixed; 
+    left:600px; 
+    top:600px;
+     
+}
+
+.downloadcv button :hover{
+
+border: 10px p;
+    background-color: #FDDC5C;
+    color: black;
+}
+
+nav{
+    
+    width: 50%;
+    text-align: right;
+    margin-left: 2em ;
+    margin-right: 2em;
+    /* border-color: #9; */
+     
+}
+
+@media only screen and (max-width: 500px) {
+    .content-wraper{
+        display:block;
+    }
+    
 }
